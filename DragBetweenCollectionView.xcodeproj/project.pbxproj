@@ -14,6 +14,9 @@
 		7B4E031C225C743300EBEE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4E031A225C743300EBEE8A /* LaunchScreen.storyboard */; };
 		7B4E0327225C743300EBEE8A /* DragBetweenCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E0326225C743300EBEE8A /* DragBetweenCollectionViewTests.swift */; };
 		7B4E0332225C743300EBEE8A /* DragBetweenCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E0331225C743300EBEE8A /* DragBetweenCollectionViewUITests.swift */; };
+		7B4E0340225C74D300EBEE8A /* AnimalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E033F225C74D300EBEE8A /* AnimalCollectionViewCell.swift */; };
+		7B4E0342225CE4F500EBEE8A /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E0341225CE4F500EBEE8A /* BaseCollectionViewCell.swift */; };
+		7B4E0344225CE55900EBEE8A /* AnimalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E0343225CE55900EBEE8A /* AnimalObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7B4E032D225C743300EBEE8A /* DragBetweenCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragBetweenCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4E0331225C743300EBEE8A /* DragBetweenCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragBetweenCollectionViewUITests.swift; sourceTree = "<group>"; };
 		7B4E0333225C743300EBEE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4E033F225C74D300EBEE8A /* AnimalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCollectionViewCell.swift; sourceTree = "<group>"; };
+		7B4E0341225CE4F500EBEE8A /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		7B4E0343225CE55900EBEE8A /* AnimalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				7B4E0311225C743100EBEE8A /* AppDelegate.swift */,
 				7B4E0313225C743100EBEE8A /* ViewController.swift */,
+				7B4E033F225C74D300EBEE8A /* AnimalCollectionViewCell.swift */,
+				7B4E0343225CE55900EBEE8A /* AnimalObject.swift */,
+				7B4E0341225CE4F500EBEE8A /* BaseCollectionViewCell.swift */,
 				7B4E0315225C743100EBEE8A /* Main.storyboard */,
 				7B4E0318225C743300EBEE8A /* Assets.xcassets */,
 				7B4E031A225C743300EBEE8A /* LaunchScreen.storyboard */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B4E0314225C743100EBEE8A /* ViewController.swift in Sources */,
+				7B4E0342225CE4F500EBEE8A /* BaseCollectionViewCell.swift in Sources */,
 				7B4E0312225C743100EBEE8A /* AppDelegate.swift in Sources */,
+				7B4E0340225C74D300EBEE8A /* AnimalCollectionViewCell.swift in Sources */,
+				7B4E0344225CE55900EBEE8A /* AnimalObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
